@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasarım Kodlama</title>
+    <title>Melike Oduncu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
@@ -27,10 +27,10 @@
  
         /*******************/
         body{
-            font-family: 'Nunito Sans', sans-serif;
+            font-family: 'Times New Roman', regular;
         }
         .arkaplan{
-            background-color: #25373D;
+            background-color: #3B5998;
         }
         .kapsayici{
             width: 960px;
@@ -54,12 +54,12 @@
         }
  
         .ust .logo h1::first-letter{
-            color:#FCB941;
+            color:#FFFFFF;
         }
  
         .ust .logo h1:hover::first-letter{
-            background-color: #FCB941;
-            color:#25373D;
+            background-color: #3B5998;
+            color:#000022;
         }
  
         .ust .logo h2{
@@ -84,12 +84,12 @@
             padding:0 2rem;
         }
         .ust .menu ul a:hover{
-            color:#FCB941;
+            color:#000022;
         }
  
         .orta .bolum1{
             margin-top:20px;
-            border:10px solid #25373D;
+            border:10px solid #FFFFFF;
             padding:20px;
         }
  
@@ -140,24 +140,24 @@
         }
  
         .alt .baglanti ul li{
-            border-bottom:dotted 1px #FCB941;
+            border-bottom:dotted 1px #FFFFFF;
             margin:5px 0;
         }
  
         .alt .baglanti a{
             font-size:1.6rem;
             text-decoration: none;
-            color:#FCB941;
+            color:#FFFFFF;
         }
  
  
         .cizgi{
-            border-top:dotted 1px #FCB941;
+            border-top:dotted 1px #3B5998;
             margin:20px 0;
         }
  
         .alt-kenar-10{
-            border-bottom:10px solid #FCB941;
+            border-bottom:10px solid #3B5998;
         }
         
     </style>
@@ -168,16 +168,15 @@
     <div class="arkaplan alt-kenar-10">
         <div class="ust kapsayici">
             <div class="logo">
-                <h1>Web Tasarım</h1>
-                <h2>www.tasarimkodlama.com</h2>
+                <h1>Sanat Galeri</h1>
+                <h2>Melike Oduncu</h2>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Ana Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
+                    <li><a href="#">HAKKIMDA</a></li>
+                    <li><a href="#">FOTOĞRAFLAR</a></li>
+                    <li><a href="#">ÇEKİMLER</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
                 </ul>
             </div>
         </div>
@@ -186,23 +185,23 @@
     <!-- sayfa ortası-->
     <div class="orta kapsayici">
         <div class="bolum1">
-            <img src="https://picsum.photos/960/360" alt="Kapak resmi">
+            <img src="2.jpg" width="500" height="600" alt="Kapak resmi">
         </div>
-        <div class="bolum2">
+        <div align="center" class="bolum2">
             <div class="kutu">
-                <img src="https://picsum.photos/290/180" alt="">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus praesentium iure </p>
+                <img src="3.jpg" width="150" height="200" alt="">
+                <h2>Ortodoks Klisesi</h2>
+                <p></p>
             </div>
             <div class="kutu">
-                <img src="https://picsum.photos/290/180" alt="">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus praesentium iure </p>
+                <img src="4.jpg" width="150" height="200" alt="">
+                <h2>Mendil Satan Küçük Kız</h2>
+                <p></p>
             </div>
             <div class="kutu">
-                <img src="https://picsum.photos/290/180" alt="">
-                <h2>Lorem Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus praesentium iure </p>
+                <img src="5.jpg" width="150" height="200" alt="">
+                <h2>Kediler ve Kara Tren</h2>
+                <p></p>
             </div>
  
  
@@ -210,53 +209,36 @@
         <div class="cizgi"></div>
         <div class="bolum3">
             <div class="icerik">
-                <h1>Lorem Ipsum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum atque ullam provident, adipisci quaerat delectus repudiandae voluptatem quo odit consequuntur modi. Ipsa sint quam corrupti vitae dolorem dicta, quia corporis.</p>
-                <p>Esse, nulla neque soluta ipsa, voluptates aliquid tempora sequi nisi mollitia quod porro ipsum ratione dolores, ad ullam. Culpa numquam animi dolor architecto maiores ad saepe soluta minima eum totam.</p>
+                <h1>Melike Oduncu</h1>
+                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. 	Fotoğraf çekmeyi ve farklı yerler, farklı insanlar tanımayı çok seviyorum.  </p>
             </div>
             <div class="gorsel">
-                <img src="https://gaiadergi.com/wp-content/uploads/2015/06/kabile-foto%C4%9Fraf7.jpg" alt="İlgili ürün bilgisi">
+                <img src="1.jpg" width="200" height="300" alt="İlgili ürün bilgisi">
             </div>
         </div>
     </div>
  
     <!-- sayfa altı-->
-    <div class="arkaplan">
+    <div align="center" class="arkaplan">
         <div class="alt kapsayici">
             <div class="baglanti">
                 <ul>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                </ul>
-            </div>
-            <div class="baglanti">
-                <ul>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                </ul>
-            </div>
-            <div class="baglanti">
-                <ul>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                </ul>
-            </div>
-            <div class="baglanti">
-                <ul>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
-                    <li><a href="#">Sayfa</a></li>
+                    <li><a href="#">Melike Oduncu</a></li>
+					<p></p>
+					<p></p>
+					 <img src="6.png" width="30" height="30" alt="Kapak resmi">		 
+&nbsp;  
+&nbsp;
+&nbsp;			 
+					 <img src="7.png" width="30" height="30" alt="Kapak resmi"> 
+&nbsp;  
+&nbsp;
+&nbsp;
+					 <img src="8.png" width="30" height="30" alt="Kapak resmi">
+&nbsp;  
+&nbsp;
+&nbsp;
+					 <img src="9.png" width="30" height="30" alt="Kapak resmi">
                 </ul>
             </div>
         </div>
