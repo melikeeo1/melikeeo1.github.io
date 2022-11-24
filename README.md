@@ -185,7 +185,7 @@
     <!-- sayfa ortası-->
     <div class="orta kapsayici">
         <div class="bolum1">
-           ![kapak resmi] (https://www.behance.net/gallery/157804575/kilise/modules/890360519)
+           ![kapak resmi] (https://www.behance.net/gallery/157804575/kilise/modules/890360519.PNG)
         </div>
         <div align="center" class="bolum2">
             <div class="kutu">
