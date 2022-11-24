@@ -185,7 +185,7 @@
     <!-- sayfa ortası-->
     <div class="orta kapsayici">
         <div class="bolum1">
-           ![kapak resmi] (https://www.behance.net/gallery/157804575/kilise/modules/890360519.PNG)
+            <img src="2.jpg" width="500" height="600" alt="Kapak resmi">
         </div>
         <div align="center" class="bolum2">
             <div class="kutu">
@@ -210,9 +210,7 @@
         <div class="bolum3">
             <div class="icerik">
                 <h1>Melike Oduncu</h1>
-                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. </p>
-                <P>Şehir şehir gezerek gezdiğim yerleri fotoğrafını çekerek anı ölümsüzleştiriyorum. </p>
-                <p>Fotoğraflarımı sizlerle paylaşarak gittiğim yerleri sizlerinde gitmenizi tavsiye ediyorum. </p>  
+                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. 	Fotoğraf çekmeyi ve farklı yerler, farklı insanlar tanımayı çok seviyorum.  </p>
             </div>
             <div class="gorsel">
                 <img src="1.jpg" width="200" height="300" alt="İlgili ürün bilgisi">
