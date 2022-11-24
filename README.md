@@ -1,45 +1,248 @@
-<html>
+<html lang="tr">
 <head>
-<title>CSS-DIV Örnekleri -5-</title>
-<link href="css-5.css" rel="stylesheet" />
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melike Oduncu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+ 
+        html{
+            font-size:62.5%;/*1rem = 10px*/
+        }
+ 
+        body,h1,h2,ul{
+            margin:0;
+            padding:0;
+            
+        }
+        ul{
+            list-style: none;
+        }
+ 
+        /*******************/
+        body{
+            font-family: 'Times New Roman', regular;
+        }
+        .arkaplan{
+            background-color: #3B5998;
+        }
+        .kapsayici{
+            width: 960px;
+            margin:0 auto;
+        }
+        
+        .ust{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 200px;
+        }
+ 
+        .ust .logo{
+            text-align: center;
+            color:#fff;
+        }
+        .ust .logo h1{
+            font-size:4rem;
+            letter-spacing: .5rem;
+        }
+ 
+        .ust .logo h1::first-letter{
+            color:#FFFFFF;
+        }
+ 
+        .ust .logo h1:hover::first-letter{
+            background-color: #3B5998;
+            color:#000022;
+        }
+ 
+        .ust .logo h2{
+            font-size:2.4rem;
+        }
+ 
+        
+ 
+        
+ 
+        .ust .menu ul{
+            display: flex;
+        }
+        .ust .menu ul li{
+            margin:0 1rem;
+        }
+ 
+        .ust .menu ul a{
+            color:#fff;
+            text-decoration: none;
+            font-size:1.8rem;
+            padding:0 2rem;
+        }
+        .ust .menu ul a:hover{
+            color:#000022;
+        }
+ 
+        .orta .bolum1{
+            margin-top:20px;
+            border:10px solid #FFFFFF;
+            padding:20px;
+        }
+ 
+        .orta .bolum1 img{
+            display: block;
+            width: 100%;
+        }
+ 
+        .orta .bolum2{
+            margin-top:20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .orta .bolum2 .kutu{
+            flex-basis: 290px;
+        }
+ 
+        .orta .bolum2 .kutu h2{
+            font-size: 2rem;
+        }
+ 
+        .orta .bolum2 .kutu p{
+            font-size: 1.6rem;
+        }
+ 
+        .orta .bolum3{
+            display: flex;
+            justify-content: space-between;
+            gap:20px;
+        }
+ 
+        .orta .bolum3 h1{
+            font-size:2.5rem;
+        }
+ 
+        .orta .bolum3 p{
+            font-size:1.6rem;
+        }
+ 
+        .alt{
+            margin-top:20px;
+            padding:20px 0;
+            display: flex;
+            gap:20px;
+        }
+        .alt .baglanti{
+            flex-grow: 1;
+        }
+ 
+        .alt .baglanti ul li{
+            border-bottom:dotted 1px #FFFFFF;
+            margin:5px 0;
+        }
+ 
+        .alt .baglanti a{
+            font-size:1.6rem;
+            text-decoration: none;
+            color:#FFFFFF;
+        }
+ 
+ 
+        .cizgi{
+            border-top:dotted 1px #3B5998;
+            margin:20px 0;
+        }
+ 
+        .alt-kenar-10{
+            border-bottom:10px solid #3B5998;
+        }
+        
+    </style>
 </head>
 <body>
-<header>
-<h1>Örnek Web Sayfası Tasarımı</h1>
-</header>
-<nav>
-<ul>
-<li><a href="#">Anasayfa</a></li>
-<li><a href="#">Hakkımda</a></li>
-<li><a href="#">İletişim</a></li>
-</ul>
-</nav>
-<article>
-<h1>Başlık1</h1>
-<p>
-Video, size görüşünüzü kanıtlamak için güçlü bir yol sunar. Çevrimiçi Video'ya tıkladığınızda, eklemek istediğiniz videoya ait ekleme kodunu yapıştırabilirsiniz. Belgenize en iyi uyan videoyu çevrimiçi olarak aramak için bir anahtar sözcük de yazabilirsiniz. Word, belgenizin profesyonelce üretilmiş görünmesini sağlamak için birbirini tamamlayan üst bilgi, alt bilgi, kapak sayfası ve metin kutusu tasarımları sağlar. Örneğin, birbiriyle uyumlu bir kapak sayfası, başlık ve kenar çubuğu ekleyebilirsiniz. Ekle'ye tıklayın ve ardından farklı galerilerden eklemek istediğiniz öğeleri seçin.
  
-</p>
-</article>
-<aside>
-<figure>
-<img src="images/ahmetcansever.jpg" height="100px" width="100px" />
-<figcaption>www.yazilimkodlama.com</figcaption>
-</figure>
-<p>
-Video, size görüşünüzü kanıtlamak için güçlü bir yol sunar. Çevrimiçi Video'ya tıkladığınızda, eklemek istediğiniz videoya ait ekleme kodunu yapıştırabilirsiniz. Belgenize en iyi uyan videoyu çevrimiçi olarak aramak için bir anahtar sözcük de yazabilirsiniz.
-</p>
-</aside>
-<section>
-<h1>Başlık</h1>
-<p>
-Video, size görüşünüzü kanıtlamak için güçlü bir yol sunar. Çevrimiçi Video'ya tıkladığınızda, eklemek istediğiniz videoya ait ekleme kodunu yapıştırabilirsiniz. Belgenize en iyi uyan videoyu çevrimiçi olarak aramak için bir anahtar sözcük de yazabilirsiniz.
-</p>
-</section>
-<footer>
-<hr />
-Tüm hakları saklıdır.
-</footer>
+    <!-- sayfa üstü-->
+    <div class="arkaplan alt-kenar-10">
+        <div class="ust kapsayici">
+            <div class="logo">
+                <h1>Sanat Galeri</h1>
+                <h2>Melike Oduncu</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HAKKIMDA</a></li>
+                    <li><a href="#">FOTOĞRAFLAR</a></li>
+                    <li><a href="#">ÇEKİMLER</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa ortası-->
+    <div class="orta kapsayici">
+        <div class="bolum1">
+            <img src="2.jpg" width="500" height="600" alt="Kapak resmi">
+        </div>
+        <div align="center" class="bolum2">
+            <div class="kutu">
+                <img src="3.jpg" width="150" height="200" alt="">
+                <h2>Ortodoks Klisesi</h2>
+                <p></p>
+            </div>
+            <div class="kutu">
+                <img src="4.jpg" width="150" height="200" alt="">
+                <h2>Mendil Satan Küçük Kız</h2>
+                <p></p>
+            </div>
+            <div class="kutu">
+                <img src="5.jpg" width="150" height="200" alt="">
+                <h2>Kediler ve Kara Tren</h2>
+                <p></p>
+            </div>
+ 
+ 
+        </div>
+        <div class="cizgi"></div>
+        <div class="bolum3">
+            <div class="icerik">
+                <h1>Melike Oduncu</h1>
+                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. 	Fotoğraf çekmeyi ve farklı yerler, farklı insanlar tanımayı çok seviyorum.  </p>
+            </div>
+            <div class="gorsel">
+                <img src="1.jpg" width="200" height="300" alt="İlgili ürün bilgisi">
+            </div>
+        </div>
+    </div>
+ 
+    <!-- sayfa altı-->
+    <div align="center" class="arkaplan">
+        <div class="alt kapsayici">
+            <div class="baglanti">
+                <ul>
+                    <li><a href="#">Melike Oduncu</a></li>
+					<p></p>
+					<p></p>
+					 <img src="6.png" width="30" height="30" alt="Kapak resmi">		 
+&nbsp;  
+&nbsp;
+&nbsp;			 
+					 <img src="7.png" width="30" height="30" alt="Kapak resmi"> 
+&nbsp;  
+&nbsp;
+&nbsp;
+					 <img src="8.png" width="30" height="30" alt="Kapak resmi">
+&nbsp;  
+&nbsp;
+&nbsp;
+					 <img src="9.png" width="30" height="30" alt="Kapak resmi">
+                </ul>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
