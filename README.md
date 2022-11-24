@@ -215,7 +215,7 @@
                 <p>Esse, nulla neque soluta ipsa, voluptates aliquid tempora sequi nisi mollitia quod porro ipsum ratione dolores, ad ullam. Culpa numquam animi dolor architecto maiores ad saepe soluta minima eum totam.</p>
             </div>
             <div class="gorsel">
-                <img src="https://picsum.photos/450/250" alt="İlgili ürün bilgisi">
+                <img src="https://gaiadergi.com/wp-content/uploads/2015/06/kabile-foto%C4%9Fraf7.jpg" alt="İlgili ürün bilgisi">
             </div>
         </div>
     </div>
