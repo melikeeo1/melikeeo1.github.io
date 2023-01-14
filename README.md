@@ -210,7 +210,7 @@
         <div class="bolum3">
             <div class="icerik">
                 <h1>Melike Oduncu</h1>
-                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. 	Fotoğraf çekmeyi ve farklı yerler, farklı insanlar tanımayı çok seviyorum.  </p>
+                <p>Ben Melike Oduncu. Fırat Üniversitesi Görsel İletişim Tasarımı 4. sınıf öğrencisiyim. 	Fotoğraf çekmeyi ve farklı yerler, farklı insanlar tanımayı çok sfveviyorum. </p>
             </div>
             <div class="gorsel">
                 <img src="1.jpg" width="200" height="300" alt="İlgili ürün bilgisi">
